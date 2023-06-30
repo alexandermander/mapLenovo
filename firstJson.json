@@ -1,0 +1,339 @@
+[
+   
+    {
+        "area": "Aalborg",
+        "position": {
+            "lat": 56.99619209999999,
+            "lng": 9.9907108
+        },
+        "placeId": "ChIJPWUQiZPvS0YR_eGH08ZIdvY"
+    },
+    {
+        "area": "Vejle",
+        "position": {
+            "lat": 55.7088104,
+            "lng": 9.4149567
+        },
+        "placeId": "ChIJiWKHBiB8S0YRoAlwe4zayog"
+    },
+    {
+        "area": "Aarhus",
+        "position": {
+            "lat": 56.1683931,
+            "lng": 10.1373728
+        },
+        "placeId": "ChIJqdQeVLlMTEYRXbXPMBJmWA4"
+    },
+    {
+        "area": "Furesø",
+        "position": {
+            "lat": 55.7944365,
+            "lng": 12.3561641
+        },
+        "placeId": "ChIJSQ0NTnZFUkYRToRdwNx6Npo"
+    },
+    {
+        "area": "Helsingør",
+        "position": {
+            "lat": 56.04092199999999,
+            "lng": 12.4900683
+        },
+        "placeId": "ChIJKcRf10k6UkYRwZomCtYI3hU"
+    },
+    {
+        "area": "Fredensborg",
+        "position": {
+            "lat": 55.9545579,
+            "lng": 12.4488735
+        },
+        "placeId": "ChIJHepDRO84UkYRwcdNu55ILEU"
+    },
+    {
+        "area": "Hillerød",
+        "position": {
+            "lat": 55.9310302,
+            "lng": 12.2348811
+        },
+        "placeId": "ChIJPYFGBvQ_UkYRWshnOMUADh4"
+    },
+    {
+        "area": "Gentofte",
+        "position": {
+            "lat": 55.75311,
+            "lng": 12.5386956
+        },
+        "placeId": "ChIJFSn_7ulNUkYRj7LZg5inAXc"
+    },
+    {
+        "area": "Lyngby-Taarbæk",
+        "position": {
+            "lat": 55.7841732,
+            "lng": 12.5113741
+        },
+        "placeId": "ChIJjfhslPROUkYRBhCnb0ZT2eg"
+    },
+    {
+        "area": "Roskilde",
+        "position": {
+            "lat": 55.6382005,
+            "lng": 12.1157851
+        },
+        "placeId": "ChIJzwP_wNxfUkYR5GwPwu7WOoc"
+    },
+    {
+        "area": "Gribskov",
+        "position": {
+            "lat": 56.06722749999999,
+            "lng": 12.2309388
+        },
+        "placeId": "ChIJLaBIsl5BUkYRYoiKy9A6ijY"
+    },
+    {
+        "area": "Rudersdal",
+        "position": {
+            "lat": 55.8276706,
+            "lng": 12.4730435
+        },
+        "placeId": "ChIJ1eSfrhxPUkYRMSh0xHd6uHM"
+    },
+    {
+        "area": "Egedal",
+        "position": {
+            "lat": 55.79504490000001,
+            "lng": 12.2387335
+        },
+        "placeId": "ChIJt1t_hrBcUkYRfFA31Q3zP5A"
+    },
+    {
+        "area": "Gladsaxe",
+        "position": {
+            "lat": 55.7427646,
+            "lng": 12.4747962
+        },
+        "placeId": "ChIJj_LEZdZRUkYRCnZ7zYkfiaY"
+    },
+    {
+        "area": "Allerød",
+        "position": {
+            "lat": 55.8656692,
+            "lng": 12.3223097
+        },
+        "placeId": "ChIJO3l7jq5GUkYRTq6vfkjKV8I"
+    },
+    {
+        "area": "Hørsholm",
+        "position": {
+            "lat": 55.88777779999999,
+            "lng": 12.4932402
+        },
+        "placeId": "ChIJt0XEwIxIUkYRaHYXBAbOuN0"
+    },
+    {
+        "area": "Odsherred",
+        "position": {
+            "lat": 55.8578944,
+            "lng": 11.597988
+        },
+        "placeId": "ChIJxWfc7n-hTUYRzGOzBA2AIkQ"
+    },
+    {
+        "area": "Vejen",
+        "position": {
+            "lat": 55.4659847,
+            "lng": 9.0756715
+        },
+        "placeId": "ChIJT-oCRbdDS0YRpylHQnGL-yk"
+    },
+    {
+        "area": "Sønderborg",
+        "position": {
+            "lat": 54.9124017,
+            "lng": 9.794635699999999
+        },
+        "placeId": "ChIJT6EZxFM2s0cRNjXNMMe5zwI"
+    },
+    {
+        "area": "Odense",
+        "position": {
+            "lat": 55.3861015,
+            "lng": 10.3537946
+        },
+        "placeId": "ChIJwSSXQjXZTEYRByAj2dD1f7c"
+    },
+    {
+        "area": "Hvidovre",
+        "position": {
+            "lat": 55.6240369,
+            "lng": 12.4771974
+        },
+        "placeId": "ChIJD85uuSFUUkYRGk87mF6q1VY"
+    },
+    {
+        "area": "København",
+        "position": {
+            "lat": 55.6570828,
+            "lng": 12.5937561
+        },
+        "placeId": "ChIJiflw5SJTUkYRQk2g-SoIpbQ"
+    },
+    {
+        "area": "Vallensbæk",
+        "position": {
+            "lat": 55.6417168,
+            "lng": 12.3598333
+        },
+        "placeId": "ChIJa_eJ0GpXUkYRwwb1sANvJkM"
+    },
+    {
+        "area": "Ballerup",
+        "position": {
+            "lat": 55.7265276,
+            "lng": 12.357808
+        },
+        "placeId": "ChIJ-VzY_JJaUkYRUZT2NxFqGfw"
+    },
+    {
+        "area": "Dragør",
+        "position": {
+            "lat": 55.5904872,
+            "lng": 12.6374198
+        },
+        "placeId": "ChIJjdb4F9CqU0YRbWEzwNB-KMA"
+    },
+    {
+        "area": "Brøndby",
+        "position": {
+            "lat": 55.64728659999999,
+            "lng": 12.4148675
+        },
+        "placeId": "ChIJ87zxB91WUkYR3qDUhbd8vKk"
+    },
+    {
+        "area": "Næstved",
+        "position": {
+            "lat": 55.3279857,
+            "lng": 11.7272534
+        },
+        "placeId": "ChIJs-XR8qe-UkYRbWARmW_u5Nk"
+    },
+    {
+        "area": "Ringsted",
+        "position": {
+            "lat": 55.47555180000001,
+            "lng": 11.8260148
+        },
+        "placeId": "ChIJVfOhLiGOUkYR8iNjS6_vO2w"
+    },
+    {
+        "area": "Vordingborg",
+        "position": {
+            "lat": 55.0517421,
+            "lng": 12.0293275
+        },
+        "placeId": "ChIJufSlAbXRUkYRUya-P52yWaM"
+    },
+    {
+        "area": "Frederiksberg",
+        "position": {
+            "lat": 55.68069200000001,
+            "lng": 12.5293611
+        },
+        "placeId": "ChIJvYLDJLZTUkYRehIVc-5UWCs"
+    },
+    {
+        "area": "Høje-Taastrup",
+        "position": {
+            "lat": 55.65927319999999,
+            "lng": 12.242497
+        },
+        "placeId": "ChIJhTLMixRZUkYR6k3Tdgn-bMw"
+    },
+    {
+        "area": "Køge",
+        "position": {
+            "lat": 55.4504972,
+            "lng": 12.0794352
+        },
+        "placeId": "ChIJXT38bcd6U0YR3jUrOm3xskQ"
+    },
+    {
+        "area": "Albertslund",
+        "position": {
+            "lat": 55.6772626,
+            "lng": 12.3430265
+        },
+        "placeId": "ChIJ6dCdMa5QUkYRpqn2xh7ekGc"
+    },
+    {
+        "area": "Solrød",
+        "position": {
+            "lat": 55.5425003,
+            "lng": 12.1716154
+        },
+        "placeId": "ChIJJU0iRoz2UkYRyz5IboI6co0"
+    },
+    {
+        "area": "Herlev",
+        "position": {
+            "lat": 55.736943,
+            "lng": 12.4215514
+        },
+        "placeId": "ChIJC726yjVQUkYRC77AmTuluyI"
+    },
+    {
+        "area": "Greve",
+        "position": {
+            "lat": 55.5790965,
+            "lng": 12.2552773
+        },
+        "placeId": "ChIJcWUlXND3UkYRdQho8DhCx1Y"
+    },
+    {
+        "area": "Rødovre",
+        "position": {
+            "lat": 55.6889548,
+            "lng": 12.4492456
+        },
+        "placeId": "ChIJyUT7ixNRUkYRlxXxTt4kCXk"
+    },
+    {
+        "area": "Vellinge",
+        "position": {
+            "lat": 55.3965644,
+            "lng": 12.8203213
+        },
+        "placeId": "ChIJqcbZV50LU0YRmaUL09-VJlg"
+    },
+    {
+        "area": "Trelleborgs",
+        "position": {
+            "lat": 55.2558716,
+            "lng": 13.2872743
+        },
+        "placeId": "ChIJEwNf_Rt3U0YRmdLJfur5VkM"
+    },
+    {
+        "area": "Malmö",
+        "position": {
+            "lat": 55.5859461,
+            "lng": 12.9467319
+        },
+        "placeId": "ChIJ7xnvNhGhU0YR9gdmGbJo3Lo"
+    },
+    {
+        "area": "Burlövs",
+        "position": {
+            "lat": 55.6319129,
+            "lng": 13.096379
+        },
+        "placeId": "ChIJEwe_BlmiU0YRbYMZeVIwyFU"
+    },
+    {
+        "area": "Guldborgsund",
+        "position": {
+            "lat": 54.76512040000001,
+            "lng": 11.8791854
+        },
+        "placeId": "ChIJV-OBxOkwrUcRU7G9rZO7fUQ"
+    }
+]
