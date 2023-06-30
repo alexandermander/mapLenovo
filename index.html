@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <title>Boundaries Simple</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script type="module">let map;
+    //@ts-ignore
+    import data from './firstJson.json' assert { type: 'json' };
+    console.log(data)
+    let featureLayer;
+    let setLayer = false
+    const str = "Odsherred Lyngby-Taarbæk Gribskov Greve Gladsaxe Dragør Hvidovre Hørsholm Helsingør Fredensborg Hillerød Rødovre Gentofte Fredensborg Roskilde Odense Trelleborgs Frederiksberg Burlövs Hørsholm Guldborgsund Vallensbæk Herlev Hørsholm Solrød Ringsted Rudersdal Aalborg Ballerup Egedal København Roskilde Ringsted Frederiksberg Furesø København Hørsholm Vellinge Greve Gentofte Vejen Greve Helsingør Vejle København Køge Hillerød Vordingborg Malmö Køge Albertslund Aarhus Høje-Taastrup Dragør Brøndby Hørsholm Køge København Frederiksberg København Næstved København Furesø Køge Allerød Frederiksberg Roskilde Sønderborg";
+    let nameList = str.split(" ");
+    const allAreias = [];
+
+    //console.log(lsit);
+    //console.log(slitIdPlae);
+    async function initMap() {
+      // Request needed libraries.
+      const { Map } = await google.maps.importLibrary("maps");
+      map = new Map(document.getElementById("map"), {
+        center: { lat: 56.2639, lng: 11.5425 },
+        zoom: 8,
+        // In the cloud console, configure this Map ID with a style that enables the
+        // "Locality" feature layer.
+        mapId: "763dac738d18268", // <YOUR_MAP_ID_HERE>,
+      });
+
+      const workMaker = ({
+        position: { lat: 55.73542310502404, lng: 12.479771730685481 },
+        map,
+      })
+      const sek = new google.maps.Marker({
+        position: { lat: 55.73542310502404, lng: 12.479771730685481 },
+        map,
+        title: "Lenovo!",
+
+      })
+
+
+      featureLayer = map.getFeatureLayer("ADMINISTRATIVE_AREA_LEVEL_2");
+
+
+      const featureStyleOptions = {
+        strokeColor: "rgb(0, 255, 0)",
+        strokeOpacity: 1.0,
+        strokeWeight: 3.0,
+        fillColor: "rgb(0, 255, 0)",
+        fillOpacity: 0.3,
+      };
+
+     
+        
+    
+      featureLayer.style = (options) => {
+        for (let index = 0; index < data.length; index++) {
+          const element = data[index];
+          if (element.placeId == options.feature.placeId) {
+            var d = haversine_distance(workMaker, element) + 75
+            if (d > 255) {
+              d = 255              
+            }
+            var newColor = "rgb("+ parseInt(d) +", "+ parseInt(255 - d) + ",0)"
+            
+            featureStyleOptions.fillColor = newColor
+            featureStyleOptions.strokeColor = newColor
+            return featureStyleOptions
+          }
+          
+        }      
+        
+      
+    }
+        function haversine_distance(mk1, mk2) {
+          var R = 6371; // Radius of the Earth in km
+          var rlat1 = mk1.position.lat * (Math.PI / 180); // Convert degrees to radians
+          var rlat2 = mk2.position.lat * (Math.PI / 180); // Convert degrees to radians
+          var difflat = rlat2 - rlat1; // Radian difference (latitudes)
+          var difflon = (mk2.position.lng - mk1.position.lng) * (Math.PI / 180); // Radian difference (longitudes)
+
+          var d = 2 * R * Math.asin(Math.sqrt(Math.sin(difflat / 2) * Math.sin(difflat / 2) + Math.cos(rlat1) * Math.cos(rlat2) * Math.sin(difflon / 2) * Math.sin(difflon / 2)));
+          return d;
+        }
+      }
+    
+
+
+    initMap();
+  </script>
+</head>
+
+<body>
+  <div id="map"></div>
+  <b id="someTxt"></b>
+
+
+  <!-- prettier-ignore -->
+  <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+      ({ key: "AIzaSyBH3Iz25LXKaJBGv-Y2A7H-PSAUrRHFYyo", v: "beta" });</script>
+</body>
+
+</html>
